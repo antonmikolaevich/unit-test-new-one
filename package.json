@@ -1,0 +1,21 @@
+{
+  "name": "unit-tests-framework-new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "c8": "^8.0.1",
+    "eslint": "^8.50.0"
+  }
+}
